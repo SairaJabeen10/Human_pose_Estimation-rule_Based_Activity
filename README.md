@@ -129,6 +129,11 @@ jupyter notebook
 ```text
 activity_classification.ipynb
 ```
+##  Project Demo
+
+The annotated output video demonstrates the pose estimation and rule-based activity classification results.
+
+[▶️ View Annotated Output Video](https://github.com/SairaJabeen10/Human_pose_Estimation-rule_Based_Activity/blob/main/output_annotated.mp4)
 
 ## Author
 
