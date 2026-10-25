@@ -104,7 +104,7 @@ Predicted labels are compared with manually annotated ground truth to calculate 
 
 **Video Used:** [Add your video file name or YouTube link here]
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the Repository
 
