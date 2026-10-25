@@ -50,22 +50,16 @@ This project implements a human activity recognition system using pose estimatio
 * Matplotlib
 * Jupyter Notebook
 
-## Project Structure
+##  Project Structure
 
 ```text
-├── data/
-│   └── input_video.mp4
-├── notebooks/
-│   └── activity_classification.ipynb
-├── results/
-│   ├── skeleton_output.mp4
-│   ├── angle_plots.png
-│   └── classification_results.csv
-├── report/
-│   └── report.pdf
-├── README.md
-└── requirements.txt
+Human_pose_Estimation-rule_Based_Activity/
+├── Human_poses_detection.ipynb
+├── Human_pose_detection_report.pdf
+├── output_annotated.mp4
+└── README.md
 ```
+
 
 ## Methodology
 
