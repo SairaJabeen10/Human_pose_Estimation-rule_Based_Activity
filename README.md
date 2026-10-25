@@ -104,31 +104,36 @@ Predicted labels are compared with manually annotated ground truth to calculate 
 
 **Video Used:** [Add your video file name or YouTube link here]
 
-## How to Run
+## 🚀 How to Run
 
-1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/human-activity-classification.git
-```
-
-2. Install dependencies
+### 1. Clone the Repository
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/SairaJabeen10/Human_pose_Estimation-rule_Based_Activity.git
 ```
 
-3. Run the notebook
+### 2. Navigate to the Project Folder
 
 ```bash
-jupyter notebook
+cd Human_pose_Estimation-rule_Based_Activity
 ```
 
-4. Open and execute:
+### 3. Install Dependencies
 
-```text
-activity_classification.ipynb
+Install the required Python libraries used by the notebook:
+
+```bash
+pip install opencv-python mediapipe numpy matplotlib jupyter
 ```
+
+### 4. Open the Notebook
+
+```bash
+jupyter notebook Human_poses_detection.ipynb
+```
+
+Run the notebook cells in order and ensure the required input video is available at the path specified in the notebook.
+
 ##  Project Demo
 
 The annotated output video demonstrates the pose estimation and rule-based activity classification results.
