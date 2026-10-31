@@ -89,16 +89,34 @@ Example Rules:
 * Knee Angle < 120° → Sitting
 * Elbow Angle < 90° → Arm Raised
 
-### 5. Evaluation
+### 5. Results & Evaluation
 
-Predicted labels are compared with manually annotated ground truth to calculate classification accuracy.
+The rule-based activity classification system was evaluated on 444 video frames using manually defined ground-truth labels.
 
-## Results
+### Performance Metrics
 
-* Skeleton visualization generated successfully.
-* Joint angle variations tracked over time.
-* Activity transitions identified.
-* Classification accuracy calculated and reported.
+| Metric                            | Result |
+| --------------------------------- | -----: |
+| Total Evaluated Frames            |    444 |
+| Correct Predictions               |    425 |
+| Incorrect Predictions             |     19 |
+| Per-frame Classification Accuracy |  95.7% |
+
+### Confusion Matrix
+
+| Actual Class | Predicted Standing | Predicted Raising Arms |
+| ------------ | -----------------: | ---------------------: |
+| Standing     |                269 |                      0 |
+| Raising Arms |                 19 |                    156 |
+
+### Key Observations
+
+* Standing activity achieved 100% recall.
+* Raising Arms activity achieved approximately 89.1% recall.
+* Joint angles were tracked across video frames.
+* Rule-based classification identified activity transitions.
+* Annotated video output was generated successfully.
+
 
 ## Video Source
 
